@@ -1,0 +1,142 @@
+{
+  "data": {
+    "title": "APPLE INC. REVENUE & EARNINGS PER SHARE (EPS)",
+    "revenueTable": {
+      "asOf": null,
+      "headers": {
+        "value1": "Fiscal Quarter:",
+        "value2": "2015 (Fiscal Year)",
+        "value3": "2014 (Fiscal Year)",
+        "value4": "2013 (Fiscal Year)"
+      },
+      "rows": [
+        {
+          "value1": "December",
+          "value2": "",
+          "value3": "",
+          "value4": ""
+        },
+        {
+          "value1": "Revenue",
+          "value2": "$74,599(m)",
+          "value3": "$57,594(m)",
+          "value4": "$54,512(m)"
+        },
+        {
+          "value1": "EPS",
+          "value2": "$0.76 (12/27/2014)",
+          "value3": "$0.52 (12/28/2013)",
+          "value4": "$0.49 (12/29/2012)"
+        },
+        {
+          "value1": "Dividends",
+          "value2": "$0.12",
+          "value3": "$0.11",
+          "value4": "$0.09"
+        },
+        {
+          "value1": "March",
+          "value2": "",
+          "value3": "",
+          "value4": ""
+        },
+        {
+          "value1": "Revenue",
+          "value2": "$58,010(m)",
+          "value3": "$45,646(m)",
+          "value4": "$43,603(m)"
+        },
+        {
+          "value1": "EPS",
+          "value2": "$0.58 (03/28/2015)",
+          "value3": "$0.42 (03/29/2014)",
+          "value4": "$0.36 (03/30/2013)"
+        },
+        {
+          "value1": "Dividends",
+          "value2": "$0.13",
+          "value3": "N/A",
+          "value4": "$0.11"
+        },
+        {
+          "value1": "June",
+          "value2": "",
+          "value3": "",
+          "value4": ""
+        },
+        {
+          "value1": "Revenue",
+          "value2": "$49,605(m)",
+          "value3": "$37,432(m)",
+          "value4": "$35,323(m)"
+        },
+        {
+          "value1": "EPS",
+          "value2": "$0.46 (06/27/2015)",
+          "value3": "$0.32 (06/28/2014)",
+          "value4": "$0.27 (06/29/2013)"
+        },
+        {
+          "value1": "Dividends",
+          "value2": "$0.13",
+          "value3": "$0.12",
+          "value4": "$0.11"
+        },
+        {
+          "value1": "September (FYE)",
+          "value2": "",
+          "value3": "",
+          "value4": ""
+        },
+        {
+          "value1": "Revenue",
+          "value2": "$51,501(m)",
+          "value3": "$42,123(m)",
+          "value4": "$37,472(m)"
+        },
+        {
+          "value1": "EPS",
+          "value2": "$0.49 (09/26/2015)",
+          "value3": "$0.36 (09/27/2014)",
+          "value4": "$0.30 (09/28/2013)"
+        },
+        {
+          "value1": "Dividends",
+          "value2": "$0.13",
+          "value3": "$0.12",
+          "value4": "$0.11"
+        },
+        {
+          "value1": "Totals",
+          "value2": "",
+          "value3": "",
+          "value4": ""
+        },
+        {
+          "value1": "Revenue",
+          "value2": "$233,715(m)",
+          "value3": "$182,795(m)",
+          "value4": "$170,910(m)"
+        },
+        {
+          "value1": "EPS",
+          "value2": "$2.31",
+          "value3": "$1.61",
+          "value4": "$1.42"
+        },
+        {
+          "value1": "Dividends",
+          "value2": "$0.51",
+          "value3": "$0.34",
+          "value4": "$0.42"
+        }
+      ]
+    }
+  },
+  "message": null,
+  "status": {
+    "rCode": 200,
+    "bCodeMessage": null,
+    "developerMessage": null
+  }
+}

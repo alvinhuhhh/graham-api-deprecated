@@ -1,0 +1,142 @@
+{
+  "data": {
+    "title": "APPLE INC. REVENUE & EARNINGS PER SHARE (EPS)",
+    "revenueTable": {
+      "asOf": null,
+      "headers": {
+        "value1": "Fiscal Quarter:",
+        "value2": "2021 (Fiscal Year)",
+        "value3": "2020 (Fiscal Year)",
+        "value4": "2019 (Fiscal Year)"
+      },
+      "rows": [
+        {
+          "value1": "December",
+          "value2": "",
+          "value3": "",
+          "value4": ""
+        },
+        {
+          "value1": "Revenue",
+          "value2": "$111,439(m)",
+          "value3": "$91,819(m)",
+          "value4": "$84,310(m)"
+        },
+        {
+          "value1": "EPS",
+          "value2": "$1.68 (12/26/2020)",
+          "value3": "$1.25 (12/28/2019)",
+          "value4": "$1.04 (12/29/2018)"
+        },
+        {
+          "value1": "Dividends",
+          "value2": "$0.20",
+          "value3": "$0.19",
+          "value4": "$0.18"
+        },
+        {
+          "value1": "March",
+          "value2": "",
+          "value3": "",
+          "value4": ""
+        },
+        {
+          "value1": "Revenue",
+          "value2": "$89,584(m)",
+          "value3": "$58,313(m)",
+          "value4": "$58,015(m)"
+        },
+        {
+          "value1": "EPS",
+          "value2": "$1.40 (03/27/2021)",
+          "value3": "$0.64 (03/28/2020)",
+          "value4": "$0.62 (03/30/2019)"
+        },
+        {
+          "value1": "Dividends",
+          "value2": "$0.22",
+          "value3": "$0.20",
+          "value4": "$0.19"
+        },
+        {
+          "value1": "June",
+          "value2": "",
+          "value3": "",
+          "value4": ""
+        },
+        {
+          "value1": "Revenue",
+          "value2": "$81,434(m)",
+          "value3": "$59,685(m)",
+          "value4": "$53,809(m)"
+        },
+        {
+          "value1": "EPS",
+          "value2": "$1.30 (06/26/2021)",
+          "value3": "$0.65 (06/27/2020)",
+          "value4": "$0.55 (06/29/2019)"
+        },
+        {
+          "value1": "Dividends",
+          "value2": "$0.22",
+          "value3": "N/A",
+          "value4": "$0.19"
+        },
+        {
+          "value1": "September (FYE)",
+          "value2": "",
+          "value3": "",
+          "value4": ""
+        },
+        {
+          "value1": "Revenue",
+          "value2": "$83,360(m)",
+          "value3": "$64,698(m)",
+          "value4": "$64,040(m)"
+        },
+        {
+          "value1": "EPS",
+          "value2": "$1.23 (09/25/2021)",
+          "value3": "$0.74 (09/26/2020)",
+          "value4": "$0.76 (09/28/2019)"
+        },
+        {
+          "value1": "Dividends",
+          "value2": "$0.22",
+          "value3": "$0.20",
+          "value4": "$0.19"
+        },
+        {
+          "value1": "Totals",
+          "value2": "",
+          "value3": "",
+          "value4": ""
+        },
+        {
+          "value1": "Revenue",
+          "value2": "$365,817(m)",
+          "value3": "$274,515(m)",
+          "value4": "$260,174(m)"
+        },
+        {
+          "value1": "EPS",
+          "value2": "$5.61",
+          "value3": "$3.28",
+          "value4": "$2.97"
+        },
+        {
+          "value1": "Dividends",
+          "value2": "$0.86",
+          "value3": "$0.60",
+          "value4": "$0.76"
+        }
+      ]
+    }
+  },
+  "message": null,
+  "status": {
+    "rCode": 200,
+    "bCodeMessage": null,
+    "developerMessage": null
+  }
+}

@@ -1,0 +1,667 @@
+{
+  "data": {
+    "symbol": "AAPL",
+    "tabs": {
+      "incomeStatementTable": "Income Statement",
+      "balanceSheetTable": "Balance Sheet",
+      "cashFlowTable": "Cash Flow",
+      "financialRatiosTable": "Financial Ratios"
+    },
+    "incomeStatementTable": {
+      "asOf": null,
+      "headers": {
+        "value1": "Period Ending:",
+        "value2": "9/30/2023",
+        "value3": "9/24/2022",
+        "value4": "9/25/2021",
+        "value5": "9/26/2020"
+      },
+      "rows": [
+        {
+          "value1": "Total Revenue",
+          "value2": "$383,285,000",
+          "value3": "$394,328,000",
+          "value4": "$365,817,000",
+          "value5": "$274,515,000"
+        },
+        {
+          "value1": "Cost of Revenue",
+          "value2": "$214,137,000",
+          "value3": "$223,546,000",
+          "value4": "$212,981,000",
+          "value5": "$169,559,000"
+        },
+        {
+          "value1": "Gross Profit",
+          "value2": "$169,148,000",
+          "value3": "$170,782,000",
+          "value4": "$152,836,000",
+          "value5": "$104,956,000"
+        },
+        {
+          "value1": "Operating Expenses",
+          "value2": "",
+          "value3": "",
+          "value4": "",
+          "value5": ""
+        },
+        {
+          "value1": "Research and Development",
+          "value2": "$29,915,000",
+          "value3": "$26,251,000",
+          "value4": "$21,914,000",
+          "value5": "$18,752,000"
+        },
+        {
+          "value1": "Sales, General and Admin.",
+          "value2": "$24,932,000",
+          "value3": "$25,094,000",
+          "value4": "$21,973,000",
+          "value5": "$19,916,000"
+        },
+        {
+          "value1": "Non-Recurring Items",
+          "value2": "--",
+          "value3": "--",
+          "value4": "--",
+          "value5": "--"
+        },
+        {
+          "value1": "Other Operating Items",
+          "value2": "--",
+          "value3": "--",
+          "value4": "--",
+          "value5": "--"
+        },
+        {
+          "value1": "Operating Income",
+          "value2": "$114,301,000",
+          "value3": "$119,437,000",
+          "value4": "$108,949,000",
+          "value5": "$66,288,000"
+        },
+        {
+          "value1": "Add'l income/expense items",
+          "value2": "-$565,000",
+          "value3": "-$334,000",
+          "value4": "$258,000",
+          "value5": "$803,000"
+        },
+        {
+          "value1": "Earnings Before Interest and Tax",
+          "value2": "$113,736,000",
+          "value3": "$119,103,000",
+          "value4": "$109,207,000",
+          "value5": "$67,091,000"
+        },
+        {
+          "value1": "Interest Expense",
+          "value2": "--",
+          "value3": "--",
+          "value4": "--",
+          "value5": "--"
+        },
+        {
+          "value1": "Earnings Before Tax",
+          "value2": "$113,736,000",
+          "value3": "$119,103,000",
+          "value4": "$109,207,000",
+          "value5": "$67,091,000"
+        },
+        {
+          "value1": "Income Tax",
+          "value2": "$16,741,000",
+          "value3": "$19,300,000",
+          "value4": "$14,527,000",
+          "value5": "$9,680,000"
+        },
+        {
+          "value1": "Minority Interest",
+          "value2": "--",
+          "value3": "--",
+          "value4": "--",
+          "value5": "--"
+        },
+        {
+          "value1": "Equity Earnings/Loss Unconsolidated Subsidiary",
+          "value2": "--",
+          "value3": "--",
+          "value4": "--",
+          "value5": "--"
+        },
+        {
+          "value1": "Net Income-Cont. Operations",
+          "value2": "$96,995,000",
+          "value3": "$99,803,000",
+          "value4": "$94,680,000",
+          "value5": "$57,411,000"
+        },
+        {
+          "value1": "Net Income",
+          "value2": "$96,995,000",
+          "value3": "$99,803,000",
+          "value4": "$94,680,000",
+          "value5": "$57,411,000"
+        },
+        {
+          "value1": "Net Income Applicable to Common Shareholders",
+          "value2": "$96,995,000",
+          "value3": "$99,803,000",
+          "value4": "$94,680,000",
+          "value5": "$57,411,000"
+        }
+      ]
+    },
+    "balanceSheetTable": {
+      "asOf": null,
+      "headers": {
+        "value1": "Period Ending:",
+        "value2": "9/30/2023",
+        "value3": "9/24/2022",
+        "value4": "9/25/2021",
+        "value5": "9/26/2020"
+      },
+      "rows": [
+        {
+          "value1": "Current Assets",
+          "value2": "",
+          "value3": "",
+          "value4": "",
+          "value5": ""
+        },
+        {
+          "value1": "Cash and Cash Equivalents",
+          "value2": "$29,965,000",
+          "value3": "$23,646,000",
+          "value4": "$34,940,000",
+          "value5": "$38,016,000"
+        },
+        {
+          "value1": "Short-Term Investments",
+          "value2": "$31,590,000",
+          "value3": "$24,658,000",
+          "value4": "$27,699,000",
+          "value5": "$52,927,000"
+        },
+        {
+          "value1": "Net Receivables",
+          "value2": "$60,985,000",
+          "value3": "$60,932,000",
+          "value4": "$51,506,000",
+          "value5": "$37,445,000"
+        },
+        {
+          "value1": "Inventory",
+          "value2": "$6,331,000",
+          "value3": "$4,946,000",
+          "value4": "$6,580,000",
+          "value5": "$4,061,000"
+        },
+        {
+          "value1": "Other Current Assets",
+          "value2": "$14,695,000",
+          "value3": "$21,223,000",
+          "value4": "$14,111,000",
+          "value5": "$11,264,000"
+        },
+        {
+          "value1": "Total Current Assets",
+          "value2": "$143,566,000",
+          "value3": "$135,405,000",
+          "value4": "$134,836,000",
+          "value5": "$143,713,000"
+        },
+        {
+          "value1": "Long-Term Assets",
+          "value2": "",
+          "value3": "",
+          "value4": "",
+          "value5": ""
+        },
+        {
+          "value1": "Long-Term Investments",
+          "value2": "$100,544,000",
+          "value3": "$120,805,000",
+          "value4": "$127,877,000",
+          "value5": "$100,887,000"
+        },
+        {
+          "value1": "Fixed Assets",
+          "value2": "$43,715,000",
+          "value3": "$42,117,000",
+          "value4": "$39,440,000",
+          "value5": "$36,766,000"
+        },
+        {
+          "value1": "Goodwill",
+          "value2": "--",
+          "value3": "--",
+          "value4": "--",
+          "value5": "--"
+        },
+        {
+          "value1": "Intangible Assets",
+          "value2": "--",
+          "value3": "--",
+          "value4": "--",
+          "value5": "--"
+        },
+        {
+          "value1": "Other Assets",
+          "value2": "$64,758,000",
+          "value3": "$54,428,000",
+          "value4": "$48,849,000",
+          "value5": "$42,522,000"
+        },
+        {
+          "value1": "Deferred Asset Charges",
+          "value2": "--",
+          "value3": "--",
+          "value4": "--",
+          "value5": "--"
+        },
+        {
+          "value1": "Total Assets",
+          "value2": "$352,583,000",
+          "value3": "$352,755,000",
+          "value4": "$351,002,000",
+          "value5": "$323,888,000"
+        },
+        {
+          "value1": "Current Liabilities",
+          "value2": "",
+          "value3": "",
+          "value4": "",
+          "value5": ""
+        },
+        {
+          "value1": "Accounts Payable",
+          "value2": "$62,611,000",
+          "value3": "$64,115,000",
+          "value4": "$54,763,000",
+          "value5": "$42,296,000"
+        },
+        {
+          "value1": "Short-Term Debt / Current Portion of Long-Term Debt",
+          "value2": "$15,807,000",
+          "value3": "$21,110,000",
+          "value4": "$15,613,000",
+          "value5": "$13,769,000"
+        },
+        {
+          "value1": "Other Current Liabilities",
+          "value2": "$66,890,000",
+          "value3": "$68,757,000",
+          "value4": "$55,105,000",
+          "value5": "$49,327,000"
+        },
+        {
+          "value1": "Total Current Liabilities",
+          "value2": "$145,308,000",
+          "value3": "$153,982,000",
+          "value4": "$125,481,000",
+          "value5": "$105,392,000"
+        },
+        {
+          "value1": "Long-Term Debt",
+          "value2": "$95,281,000",
+          "value3": "$98,959,000",
+          "value4": "$109,106,000",
+          "value5": "$98,667,000"
+        },
+        {
+          "value1": "Other Liabilities",
+          "value2": "$49,848,000",
+          "value3": "$49,142,000",
+          "value4": "$53,325,000",
+          "value5": "$54,490,000"
+        },
+        {
+          "value1": "Deferred Liability Charges",
+          "value2": "--",
+          "value3": "--",
+          "value4": "--",
+          "value5": "--"
+        },
+        {
+          "value1": "Misc. Stocks",
+          "value2": "--",
+          "value3": "--",
+          "value4": "--",
+          "value5": "--"
+        },
+        {
+          "value1": "Minority Interest",
+          "value2": "--",
+          "value3": "--",
+          "value4": "--",
+          "value5": "--"
+        },
+        {
+          "value1": "Total Liabilities",
+          "value2": "$290,437,000",
+          "value3": "$302,083,000",
+          "value4": "$287,912,000",
+          "value5": "$258,549,000"
+        },
+        {
+          "value1": "Stock Holders Equity",
+          "value2": "",
+          "value3": "",
+          "value4": "",
+          "value5": ""
+        },
+        {
+          "value1": "Common Stocks",
+          "value2": "$73,812,000",
+          "value3": "$64,849,000",
+          "value4": "$57,365,000",
+          "value5": "$50,779,000"
+        },
+        {
+          "value1": "Capital Surplus",
+          "value2": "-$214,000",
+          "value3": "-$3,068,000",
+          "value4": "$5,562,000",
+          "value5": "$14,966,000"
+        },
+        {
+          "value1": "Retained Earnings",
+          "value2": "--",
+          "value3": "--",
+          "value4": "--",
+          "value5": "--"
+        },
+        {
+          "value1": "Treasury Stock",
+          "value2": "--",
+          "value3": "--",
+          "value4": "--",
+          "value5": "--"
+        },
+        {
+          "value1": "Other Equity",
+          "value2": "-$11,452,000",
+          "value3": "-$11,109,000",
+          "value4": "$163,000",
+          "value5": "-$406,000"
+        },
+        {
+          "value1": "Total Equity",
+          "value2": "$62,146,000",
+          "value3": "$50,672,000",
+          "value4": "$63,090,000",
+          "value5": "$65,339,000"
+        },
+        {
+          "value1": "Total Liabilities & Equity",
+          "value2": "$352,583,000",
+          "value3": "$352,755,000",
+          "value4": "$351,002,000",
+          "value5": "$323,888,000"
+        }
+      ]
+    },
+    "cashFlowTable": {
+      "asOf": null,
+      "headers": {
+        "value1": "Period Ending:",
+        "value2": "9/30/2023",
+        "value3": "9/24/2022",
+        "value4": "9/25/2021",
+        "value5": "9/26/2020"
+      },
+      "rows": [
+        {
+          "value1": "Net Income",
+          "value2": "$96,995,000",
+          "value3": "$99,803,000",
+          "value4": "$94,680,000",
+          "value5": "$57,411,000"
+        },
+        {
+          "value1": "Cash Flows-Operating Activities",
+          "value2": "",
+          "value3": "",
+          "value4": "",
+          "value5": ""
+        },
+        {
+          "value1": "Depreciation",
+          "value2": "$11,519,000",
+          "value3": "$11,104,000",
+          "value4": "$11,284,000",
+          "value5": "$11,056,000"
+        },
+        {
+          "value1": "Net Income Adjustments",
+          "value2": "$8,606,000",
+          "value3": "$10,044,000",
+          "value4": "$2,985,000",
+          "value5": "$6,517,000"
+        },
+        {
+          "value1": "Changes in Operating Activities",
+          "value2": "",
+          "value3": "",
+          "value4": "",
+          "value5": ""
+        },
+        {
+          "value1": "Accounts Receivable",
+          "value2": "-$417,000",
+          "value3": "-$9,343,000",
+          "value4": "-$14,028,000",
+          "value5": "$8,470,000"
+        },
+        {
+          "value1": "Changes in Inventories",
+          "value2": "-$1,618,000",
+          "value3": "$1,484,000",
+          "value4": "-$2,642,000",
+          "value5": "-$127,000"
+        },
+        {
+          "value1": "Other Operating Activities",
+          "value2": "-$5,684,000",
+          "value3": "-$6,499,000",
+          "value4": "-$8,042,000",
+          "value5": "-$9,588,000"
+        },
+        {
+          "value1": "Liabilities",
+          "value2": "$1,142,000",
+          "value3": "$15,558,000",
+          "value4": "$19,801,000",
+          "value5": "$6,935,000"
+        },
+        {
+          "value1": "Net Cash Flow-Operating",
+          "value2": "$110,543,000",
+          "value3": "$122,151,000",
+          "value4": "$104,038,000",
+          "value5": "$80,674,000"
+        },
+        {
+          "value1": "Cash Flows-Investing Activities",
+          "value2": "",
+          "value3": "",
+          "value4": "",
+          "value5": ""
+        },
+        {
+          "value1": "Capital Expenditures",
+          "value2": "-$10,959,000",
+          "value3": "-$10,708,000",
+          "value4": "-$11,085,000",
+          "value5": "-$7,309,000"
+        },
+        {
+          "value1": "Investments",
+          "value2": "$16,001,000",
+          "value3": "-$9,560,000",
+          "value4": "-$3,075,000",
+          "value5": "$5,453,000"
+        },
+        {
+          "value1": "Other Investing Activities",
+          "value2": "-$1,337,000",
+          "value3": "-$2,086,000",
+          "value4": "-$385,000",
+          "value5": "-$2,433,000"
+        },
+        {
+          "value1": "Net Cash Flows-Investing",
+          "value2": "$3,705,000",
+          "value3": "-$22,354,000",
+          "value4": "-$14,545,000",
+          "value5": "-$4,289,000"
+        },
+        {
+          "value1": "Cash Flows-Financing Activities",
+          "value2": "",
+          "value3": "",
+          "value4": "",
+          "value5": ""
+        },
+        {
+          "value1": "Sale and Purchase of Stock",
+          "value2": "-$77,550,000",
+          "value3": "-$89,402,000",
+          "value4": "-$85,971,000",
+          "value5": "-$72,358,000"
+        },
+        {
+          "value1": "Net Borrowings",
+          "value2": "-$9,901,000",
+          "value3": "-$123,000",
+          "value4": "$12,665,000",
+          "value5": "$2,499,000"
+        },
+        {
+          "value1": "Other Financing Activities",
+          "value2": "-$6,012,000",
+          "value3": "-$6,383,000",
+          "value4": "-$5,580,000",
+          "value5": "-$2,880,000"
+        },
+        {
+          "value1": "Net Cash Flows-Financing",
+          "value2": "-$108,488,000",
+          "value3": "-$110,749,000",
+          "value4": "-$93,353,000",
+          "value5": "-$86,820,000"
+        },
+        {
+          "value1": "Effect of Exchange Rate",
+          "value2": "--",
+          "value3": "--",
+          "value4": "--",
+          "value5": "--"
+        },
+        {
+          "value1": "Net Cash Flow",
+          "value2": "$5,760,000",
+          "value3": "-$10,952,000",
+          "value4": "-$3,860,000",
+          "value5": "-$10,435,000"
+        }
+      ]
+    },
+    "financialRatiosTable": {
+      "asOf": null,
+      "headers": {
+        "value1": "Period Ending:",
+        "value2": "9/30/2023",
+        "value3": "9/24/2022",
+        "value4": "9/25/2021",
+        "value5": "9/26/2020"
+      },
+      "rows": [
+        {
+          "value1": "Liquidity Ratios",
+          "value2": "",
+          "value3": "",
+          "value4": "",
+          "value5": ""
+        },
+        {
+          "value1": "Current Ratio",
+          "value2": "98.80117%",
+          "value3": "87.9356%",
+          "value4": "107.45531%",
+          "value5": "136.36044%"
+        },
+        {
+          "value1": "Quick Ratio",
+          "value2": "94.44422%",
+          "value3": "84.72354%",
+          "value4": "102.21149%",
+          "value5": "132.50721%"
+        },
+        {
+          "value1": "Cash Ratio",
+          "value2": "42.36174%",
+          "value3": "31.3699%",
+          "value4": "49.91911%",
+          "value5": "86.29023%"
+        },
+        {
+          "value1": "Profitability Ratios",
+          "value2": "",
+          "value3": "",
+          "value4": "",
+          "value5": ""
+        },
+        {
+          "value1": "Gross Margin",
+          "value2": "44.13113%",
+          "value3": "43.30963%",
+          "value4": "41.77936%",
+          "value5": "38.23325%"
+        },
+        {
+          "value1": "Operating Margin",
+          "value2": "29.82141%",
+          "value3": "30.28874%",
+          "value4": "29.78238%",
+          "value5": "24.14731%"
+        },
+        {
+          "value1": "Pre-Tax Margin",
+          "value2": "29.674%",
+          "value3": "30.20404%",
+          "value4": "29.8529%",
+          "value5": "24.43983%"
+        },
+        {
+          "value1": "Profit Margin",
+          "value2": "25.30623%",
+          "value3": "25.30964%",
+          "value4": "25.88179%",
+          "value5": "20.91361%"
+        },
+        {
+          "value1": "Pre-Tax ROE",
+          "value2": "183.01419%",
+          "value3": "235.04697%",
+          "value4": "173.09716%",
+          "value5": "102.6814%"
+        },
+        {
+          "value1": "After Tax ROE",
+          "value2": "156.07601%",
+          "value3": "196.95887%",
+          "value4": "150.07133%",
+          "value5": "87.86636%"
+        }
+      ]
+    }
+  },
+  "message": null,
+  "status": {
+    "rCode": 200,
+    "bCodeMessage": null,
+    "developerMessage": null
+  }
+}

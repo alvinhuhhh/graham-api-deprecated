@@ -1,0 +1,142 @@
+{
+  "data": {
+    "title": "APPLE INC. REVENUE & EARNINGS PER SHARE (EPS)",
+    "revenueTable": {
+      "asOf": null,
+      "headers": {
+        "value1": "Fiscal Quarter:",
+        "value2": "2024 (Fiscal Year)",
+        "value3": "2023 (Fiscal Year)",
+        "value4": "2022 (Fiscal Year)"
+      },
+      "rows": [
+        {
+          "value1": "December",
+          "value2": "",
+          "value3": "",
+          "value4": ""
+        },
+        {
+          "value1": "Revenue",
+          "value2": "$119,575(m)",
+          "value3": "$117,154(m)",
+          "value4": "$123,945(m)"
+        },
+        {
+          "value1": "EPS",
+          "value2": "$2.18 (12/30/2023)",
+          "value3": "$1.88 (12/31/2022)",
+          "value4": "$2.10 (12/25/2021)"
+        },
+        {
+          "value1": "Dividends",
+          "value2": "$0.24",
+          "value3": "$0.23",
+          "value4": "$0.22"
+        },
+        {
+          "value1": "September (FYE)",
+          "value2": "",
+          "value3": "",
+          "value4": ""
+        },
+        {
+          "value1": "Revenue",
+          "value2": "",
+          "value3": "$94,836(m)",
+          "value4": "$97,278(m)"
+        },
+        {
+          "value1": "EPS",
+          "value2": "",
+          "value3": "$1.53 (04/01/2023)",
+          "value4": "$1.52 (03/26/2022)"
+        },
+        {
+          "value1": "Dividends",
+          "value2": "",
+          "value3": "$0.24",
+          "value4": "$0.23"
+        },
+        {
+          "value1": "June",
+          "value2": "",
+          "value3": "",
+          "value4": ""
+        },
+        {
+          "value1": "Revenue",
+          "value2": "",
+          "value3": "$81,797(m)",
+          "value4": "$82,959(m)"
+        },
+        {
+          "value1": "EPS",
+          "value2": "",
+          "value3": "$1.26 (07/01/2023)",
+          "value4": "$1.20 (06/25/2022)"
+        },
+        {
+          "value1": "Dividends",
+          "value2": "",
+          "value3": "$0.24",
+          "value4": "$0.23"
+        },
+        {
+          "value1": "March",
+          "value2": "",
+          "value3": "",
+          "value4": ""
+        },
+        {
+          "value1": "Revenue",
+          "value2": "",
+          "value3": "$89,498(m)",
+          "value4": "$90,146(m)"
+        },
+        {
+          "value1": "EPS",
+          "value2": "",
+          "value3": "$1.46 (09/30/2023)",
+          "value4": "$1.29 (09/24/2022)"
+        },
+        {
+          "value1": "Dividends",
+          "value2": "",
+          "value3": "$0.24",
+          "value4": "$0.23"
+        },
+        {
+          "value1": "Totals",
+          "value2": "",
+          "value3": "",
+          "value4": ""
+        },
+        {
+          "value1": "Revenue",
+          "value2": "$119,575(m)",
+          "value3": "$383,285(m)",
+          "value4": "$394,328(m)"
+        },
+        {
+          "value1": "EPS",
+          "value2": "$2.18",
+          "value3": "$6.13",
+          "value4": "$6.11"
+        },
+        {
+          "value1": "Dividends",
+          "value2": "$0.24",
+          "value3": "$0.95",
+          "value4": "$0.91"
+        }
+      ]
+    }
+  },
+  "message": null,
+  "status": {
+    "rCode": 200,
+    "bCodeMessage": null,
+    "developerMessage": null
+  }
+}
