@@ -22,3 +22,17 @@ declare type EPSData = {
   [yearMinus9: string]: number;
   [yearMinus10: string]: number;
 };
+
+declare type CriteriaData = {
+  order: number;
+  description: string;
+  met: boolean;
+  value: number;
+  valueLabel: string;
+};
+
+declare type CriteriaResponse = {
+  ticker: string;
+  price: number;
+  criteria: CriteriaData[];
+};

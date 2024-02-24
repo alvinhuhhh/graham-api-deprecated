@@ -66,37 +66,52 @@ app.get("/api/criteria", async (req: Request, res: Response) => {
         const pbRatio = calculatePbRatio(basicData);
         if (pbRatio) criteria5 = pbRatio < 3;
 
-        return res.status(200).send({
+        const body: CriteriaResponse = {
           ticker: tickerUpperCase,
-          criteria1: {
-            description: "Total market cap must be more than $100 billion",
-            met: criteria1,
-            marketCap: marketCap,
-          },
-          criteria2: {
-            description: "Current assets should be twice current liabilities",
-            met: criteria2,
-            currentRatio: currentRatio,
-          },
-          criteria3: {
-            description:
-              "Earnings growth should be 33% over the past 10 years, taking 3-year averages",
-            met: criteria3,
-            earningsGrowth: earningsGrowth,
-          },
-          criteria4: {
-            description:
-              "Current price should not be more than 25 times average earnings of the past 4 years",
-            met: criteria4,
-            peRatio: peRatio,
-          },
-          criteria5: {
-            description:
-              "Current price should not be more than 3.0 times the book value",
-            met: criteria5,
-            pbRatio: pbRatio,
-          },
-        });
+          price: basicData.price,
+          criteria: [
+            {
+              order: 1,
+              description: "Total market cap must be more than $100 billion",
+              met: criteria1,
+              value: marketCap,
+              valueLabel: "Market Cap",
+            },
+            {
+              order: 2,
+              description: "Current assets should be twice current liabilities",
+              met: criteria2,
+              value: currentRatio,
+              valueLabel: "Current Ratio",
+            },
+            {
+              order: 3,
+              description:
+                "Earnings growth should be 33% over the past 10 years, taking 3-year averages",
+              met: criteria3,
+              value: earningsGrowth,
+              valueLabel: "Earnings Growth",
+            },
+            {
+              order: 4,
+              description:
+                "Current price should not be more than 25 times average earnings of the past 4 years",
+              met: criteria4,
+              value: peRatio,
+              valueLabel: "P/E Ratio",
+            },
+            {
+              order: 5,
+              description:
+                "Current price should not be more than 3.0 times the book value",
+              met: criteria5,
+              value: pbRatio,
+              valueLabel: "P/B Ratio",
+            },
+          ],
+        };
+
+        return res.status(200).send(body);
       } else {
         throw new Error("Unable to fetch data");
       }
