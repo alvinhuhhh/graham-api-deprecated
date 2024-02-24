@@ -70,6 +70,7 @@ app.get("/api/criteria", async (req: Request, res: Response) => {
           name: basicData.name,
           ticker: tickerUpperCase,
           price: basicData.price,
+          currency: basicData.currency,
           criteria: [
             {
               order: 1,
