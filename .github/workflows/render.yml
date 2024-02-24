@@ -25,6 +25,7 @@ jobs:
   deploy:
     name: Deploy Render
     runs-on: ubuntu-latest
+    needs: docker
     steps:
       - name: Deploy to Render
         uses: johnbeynon/render-deploy-action@master
