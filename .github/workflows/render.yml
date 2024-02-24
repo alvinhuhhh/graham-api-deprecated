@@ -21,4 +21,14 @@ jobs:
         with:
           push: true
           tags: alvinhuhhh/graham-api:latest
-          
+
+  deploy:
+    name: Deploy Render
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to Render
+        uses: johnbeynon/render-deploy-action@master
+        with:
+          service-id: ${{ secrets.RENDER_SERVICE_ID }}
+          api-key: ${{ secrets.RENDER_API_KEY }}
+          wait-for-success: true
