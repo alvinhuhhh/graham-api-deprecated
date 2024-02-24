@@ -1,0 +1,24 @@
+name: Deploy Render
+
+on: workflow_dispatch
+
+jobs:
+  docker:
+    name: Build and push to Docker Hub
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup Docker Buildx
+        uses: docker/setup-buildx-action@master
+
+      - name: Login to Docker Hub
+        uses: docker/login-action@master
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+        
+      - name: Build and push
+        uses: docker/build-push-action@master
+        with:
+          push: true
+          tags: alvinhuhhh/graham-api:latest
+          
