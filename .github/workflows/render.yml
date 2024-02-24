@@ -23,12 +23,12 @@ jobs:
           tags: alvinhuhhh/graham-api:latest
 
   deploy:
-    name: Deploy Render
+    name: Deploy App
     runs-on: ubuntu-latest
     needs: docker
     steps:
       - name: Deploy to Render
-        uses: johnbeynon/render-deploy-action@master
+        uses: sws2apps/render-deployment@main
         with:
           service-id: ${{ secrets.RENDER_SERVICE_ID }}
           api-key: ${{ secrets.RENDER_API_KEY }}
