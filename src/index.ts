@@ -61,7 +61,7 @@ app.get("/api/criteria", async (req: Request, res: Response) => {
         if (earningsGrowth) criteria3 = earningsGrowth > 0.33;
 
         const peRatio = calculatePeRatio(basicData, epsData);
-        if (peRatio) criteria4 = peRatio < 25;
+        if (peRatio) criteria4 = peRatio > -1 && peRatio < 25;
 
         const pbRatio = calculatePbRatio(basicData);
         if (pbRatio) criteria5 = pbRatio < 3;
