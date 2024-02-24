@@ -74,14 +74,14 @@ app.get("/api/criteria", async (req: Request, res: Response) => {
           criteria: [
             {
               order: 1,
-              description: "Total market cap must be more than $100 billion",
+              description: "Total market cap more than $100 billion",
               met: criteria1,
               value: marketCap,
               valueLabel: "Market Cap",
             },
             {
               order: 2,
-              description: "Current assets should be twice current liabilities",
+              description: "Current assets twice current liabilities",
               met: criteria2,
               value: currentRatio,
               valueLabel: "Current Ratio",
@@ -89,7 +89,7 @@ app.get("/api/criteria", async (req: Request, res: Response) => {
             {
               order: 3,
               description:
-                "Earnings growth should be 33% over the past 10 years, taking 3-year averages",
+                "Earnings growth above 33% over the past 10 years, taking 3-year averages",
               met: criteria3,
               value: earningsGrowth,
               valueLabel: "Earnings Growth",
@@ -97,7 +97,7 @@ app.get("/api/criteria", async (req: Request, res: Response) => {
             {
               order: 4,
               description:
-                "Current price should not be more than 25 times average earnings of the past 4 years",
+                "Current price not more than 25 times average earnings of the past 4 years",
               met: criteria4,
               value: peRatio,
               valueLabel: "P/E Ratio",
@@ -105,7 +105,7 @@ app.get("/api/criteria", async (req: Request, res: Response) => {
             {
               order: 5,
               description:
-                "Current price should not be more than 3.0 times the book value",
+                "Current price not more than 3.0 times the book value",
               met: criteria5,
               value: pbRatio,
               valueLabel: "P/B Ratio",
