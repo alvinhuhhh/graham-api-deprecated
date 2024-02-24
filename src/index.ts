@@ -67,6 +67,7 @@ app.get("/api/criteria", async (req: Request, res: Response) => {
         if (pbRatio) criteria5 = pbRatio < 3;
 
         const body: CriteriaResponse = {
+          name: basicData.name,
           ticker: tickerUpperCase,
           price: basicData.price,
           criteria: [

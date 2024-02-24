@@ -1,4 +1,5 @@
 declare type BasicData = {
+  name: string;
   price: number;
   marketCap: number;
   priceToBook: number;
@@ -32,6 +33,7 @@ declare type CriteriaData = {
 };
 
 declare type CriteriaResponse = {
+  name: string;
   ticker: string;
   price: number;
   criteria: CriteriaData[];

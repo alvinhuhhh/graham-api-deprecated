@@ -14,7 +14,8 @@ function convertCurrencyStringToFloat(str: string): number {
 
 export async function getDataFromYF(ticker: string): Promise<BasicData | null> {
   try {
-    const { regularMarketPrice, marketCap } = await yahooFinance.quote(ticker);
+    const { longName, regularMarketPrice, marketCap } =
+      await yahooFinance.quote(ticker);
     const { defaultKeyStatistics } = await yahooFinance.quoteSummary(ticker, {
       modules: ["defaultKeyStatistics"],
     });
@@ -22,6 +23,7 @@ export async function getDataFromYF(ticker: string): Promise<BasicData | null> {
     console.log(`[getDataFromYF] Returned status code: 200`);
 
     if (
+      !longName ||
       !regularMarketPrice ||
       !marketCap ||
       !defaultKeyStatistics?.priceToBook
@@ -30,6 +32,7 @@ export async function getDataFromYF(ticker: string): Promise<BasicData | null> {
     }
 
     return {
+      name: longName,
       price: regularMarketPrice,
       marketCap: marketCap,
       priceToBook: defaultKeyStatistics.priceToBook,
